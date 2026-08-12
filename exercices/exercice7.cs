@@ -133,9 +133,16 @@ while (choix != 4) {
 
             case 6 :
                 int nbTask = menu.Count;
-                Console.WriteLine($"""
-                    Il y a {nbTask} dans la liste
-                """);
+                if (nbTask < 2) {
+                    Console.WriteLine($"""
+                        Il y a {nbTask} tâche dans la liste !
+                    """);
+                }
+                else {
+                    Console.WriteLine($"""
+                        Il y a {nbTask} tâches dans la liste !
+                    """);
+                }
                 break;        
 
         } 
