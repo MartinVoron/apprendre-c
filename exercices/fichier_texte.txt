@@ -1,0 +1,6 @@
+Arthur: connexion
+Bob: connexion
+Arthur: deconnexion
+Charlie: connexion
+Arthur: connexion
+Bob: deconnexion
